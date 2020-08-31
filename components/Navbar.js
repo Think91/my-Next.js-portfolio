@@ -2,7 +2,7 @@ import { useState } from "react";
 import useWindowDimensions from "../hooks/useWindowDimensions";
 
 import Link from "next/link";
-import styles from "../styles/navbar.module.scss";
+import styles from "../styles/navbar.module.css";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);

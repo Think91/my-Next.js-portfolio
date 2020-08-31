@@ -1,13 +1,13 @@
 import Head from "next/head";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import styles from "../styles/contact.module.scss";
+import styles from "../styles/contact.module.css";
 
 const contact = () => {
   return (
     <>
       <Head>
-        <title> Contact Me | Harel Panker</title>
+        <title> Contact Me | Lwazi Think Booi</title>
         <meta
           name='description'
           content='You are welcome to drop me a line in the form below'

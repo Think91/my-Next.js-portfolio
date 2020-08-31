@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import styles from "../styles/about.module.scss";
+import styles from "../styles/about.module.css";
 import Head from "next/head";
 import skills from "../public/skills";
 

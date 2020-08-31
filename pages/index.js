@@ -3,7 +3,7 @@ import Link from "next/link";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import clientsList from "../public/clients";
-import styles from "../styles/index.module.scss";
+import styles from "../styles/index.module.css";
 import Client from "../components/Client";
 import Flicking from "@egjs/react-flicking";
 
