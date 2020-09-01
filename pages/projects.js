@@ -1,37 +1,35 @@
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
-import Project from "../components/Project";
-import projectsList from "../public/projects";
-import Head from "next/head";
+import Link from "next/link";
 
-const projects = () => {
-  return (
-    <>
-      <Head>
-        <title> Projects | Lwazi Think Booi</title>
-        <meta
-          name='description'
-          content='Here you can find a list of my recent projects, mainly in React and Next.js.'
-        />
-      </Head>
-      <Navbar />
-      <div className='pageContainer'>
-        <header>
-          <div className='shortLine'></div>
-          <h1 className='pageHeader'>Projects</h1>
-          <p className='text'>
-            Please enjoy browsing some of my projects, most were done for academic purposes, and others were done as part of my professional portfolio
-          </p>
-        </header>
-        <main>
-          {projectsList.map((p) => (
-            <Project {...p} key={p.id} />
-          ))}
-        </main>
-      </div>
-      <Footer />
-    </>
-  );
-};
+export default () => (
+  <div>
+   <div id="nav">
+         <Link href="/index">
+      <a>Home</a>
+    </Link><br />
+    <Link href="/about">
+      <a>About</a>
+    </Link><br />
+    <Link href="/projects">
+      <a>Projects</a>
+    </Link><br />
+    <Link href="/contact">
+      <a>Contact</a>
+    </Link><br />
+    </div>
+    
+    <h3>Projects</h3>
 
-export default projects;
+    <ul>
+      <li> Snake game app - https://github.com/Think91 </li>
+      <li> React weather app - https://github.com/Think91 </li>
+      <li> Online store app - https://github.com/Think91 </li>
+    </ul>
+<style jsx>{`
+
+#nav {
+background: lightgray; }
+
+
+`}</style>
+  </div>
+);

@@ -1,78 +1,50 @@
-import Head from "next/head";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
-import styles from "../styles/contact.module.css";
+import Link from "next/link";
 
-const contact = () => {
-  return (
-    <>
-      <Head>
-        <title> Contact Me | Lwazi Think Booi</title>
-        <meta
-          name='description'
-          content='You are welcome to drop me a line in the form below'
-        />
-      </Head>
-      <Navbar />
-      <div className='pageContainer'>
-        <header className={styles.header}>
-          <div className='shortLine'></div>
-          <h1 className='pageHeader'>Get in touch</h1>
-          <h4 className={styles.text}>
-            If you wanna get in touch, talk to me about a project collaboration,
-            or just say hi, fill in the form below or send an email 
-          </h4>
-        </header>
-        <main className={styles.main}>
-          <form
-            autocomplete='off'
-            action='https://formspree.io/thinkbooi@gmail.com'
-            method='POST'>
-            <div className={styles.inputBlock}>
-              <label className={styles.label} htmlFor='name'>
-                Name:
-              </label>
-              <input
-                className={styles.input}
-                type='text'
-                autocomplete='off'
-                name='name'
-                required
-                id='name'
-              />
-            </div>
-            <div className={styles.inputBlock}>
-              <label className={styles.label} htmlFor='email'>
-                Email:
-              </label>
-              <input
-                className={styles.input}
-                autocomplete='off'
-                type='email'
-                name='_replyto'
-                required
-                id='email'
-              />
-            </div>
-            <div className={styles.inputBlock}>
-              <label className={styles.label} htmlFor='message'>
-                Message:
-              </label>
-              <textarea
-                className={styles.textarea}
-                name='message'
-                id='message'
-              />
-            </div>
-            <button className='btn-main' type='submit'>
-              Send
-            </button>
-          </form>
-        </main>
-      </div>
-      <Footer />
-    </>
-  );
-};
+export default () => (
+  <div>
+   <div id="nav">
+      <Link href="/index">
+      <a>Home</a>
+    </Link><br />
+    <Link href="/about">
+      <a>About</a>
+    </Link><br />
+    <Link href="/projects">
+      <a>Projects</a>
+    </Link><br />
+    <Link href="/contact">
+      <a>Contact</a>
+    </Link><br />
+    </div>
+    
+    <h3>Contact details</h3>
 
-export default contact;
+    <h4>Email</h4>
+    <ul>
+      <li>thinkbooi@gmail.com</li>
+    </ul>
+
+    <h4>LinkedIN</h4>
+    <ul>
+      <a href="linkedin.com/in/LwaziThinkBooi">LinkedIn</a>
+    </ul>
+
+    <h4>Github</h4>
+    <ul>
+      <a href="github.com/Think91">GitHub</a>
+    </ul>
+
+    <h4>Cell</h4>
+    <ul>
+        <li>079-541-7137</li>
+        <li>067-298-5367</li>
+    </ul>
+    <style jsx>{`
+
+#nav {
+background: lightgray; }
+
+
+`}</style>
+  </div>
+);
