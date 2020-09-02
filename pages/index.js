@@ -35,10 +35,20 @@ export default class index extends Component {
                         Hard-working web developer with a flair for creating elegant solutions in the least amount of time. Valuable team member, anthusiastic about building world class web applications. 
                         Passionate about software architecture and cloud computing.
                     </p>
-                    
+                    <h3>Contact Details</h3>
+                        <ul>
+                            
+                            <a href="thinkbooi@gmail.com">Email</a>
+                            <br>
+                            <a href="linkedin.com/in/LwaziThinkBooi">LinkedIn</a>
+                            <br>
+                            <a href="github.com/Think91">GitHub account</a>
+                            <br>
+                            <p>Phone</p>
+                            <li>0672985367 </li>
+                            <li>0795417137</li>
+                        </ul> 
 
-                    <iframe className='mobile' src="https://docs.google.com/forms/d/e/1FAIpQLSeZjUmDT2rnMj2Bndvz6SSgM65GZu6tQ4Nk_jQuVTgsEGxQkQ/viewform?embedded=true" width="320" height="900" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-                    <iframe className='desktop' src="https://docs.google.com/forms/d/e/1FAIpQLSeZjUmDT2rnMj2Bndvz6SSgM65GZu6tQ4Nk_jQuVTgsEGxQkQ/viewform?embedded=true" width="460" height="700" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
                 </div>
 
