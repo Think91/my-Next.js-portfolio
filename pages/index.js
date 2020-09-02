@@ -35,19 +35,7 @@ export default class index extends Component {
                         Hard-working web developer with a flair for creating elegant solutions in the least amount of time. Valuable team member, anthusiastic about building world class web applications. 
                         Passionate about software architecture and cloud computing.
                     </p>
-                    <h3>Contact Details</h3>
-                        <ul>
-                            
-                            <a href="thinkbooi@gmail.com">Email</a>
-                            <br>
-                            <a href="linkedin.com/in/LwaziThinkBooi">LinkedIn</a>
-                            <br>
-                            <a href="github.com/Think91">GitHub account</a>
-                            <br>
-                            <p>Phone</p>
-                            <li>0672985367 </li>
-                            <li>0795417137</li>
-                        </ul> 
+                    
 
 
                 </div>
