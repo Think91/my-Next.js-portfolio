@@ -5,6 +5,16 @@ export default class MyDocument extends Document {
         return (
             <html lang='en'>
                 <Head>
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-177626621-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-177626621-1');
+</script>
+
                     <meta name="description" content="Lwazi Think Booi's programming portfolio" />
                     <meta charSet="utf-8" />
                     <meta name="viewport" content="width=device-width" />
