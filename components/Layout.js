@@ -15,6 +15,16 @@ Router.onRouteChangeerror = () => NProgress.done();
 export default ({ children, title, description, img, img_max_width, img_max_height, active }) => (
     <div className='root centered-column'>
         <Head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-177626621-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-177626621-1');
+</script>
+
             <title>Lwazi Think Booi's Next Portfolio</title>
         </Head>
         <div id="header-wrapper" className='header-wrapper centered-column'>
